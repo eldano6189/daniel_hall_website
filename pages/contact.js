@@ -1,4 +1,4 @@
-import styles from "../styles/Contact.module.css";
+import styles from "../styles/contact.module.css";
 import Head from "next/head";
 
 export const Contact = () => {
