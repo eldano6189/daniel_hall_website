@@ -1,4 +1,4 @@
-import styles from "../styles/about.module.css";
+import styles from "../styles/About.module.css";
 import Head from "next/head";
 
 import { AnimatedDots } from "../components/Animated-dots/AnimatedDots";
