@@ -6,6 +6,7 @@
   min-height: 600px;
   background-color: var(--bg1);
   color: var(--fc1);
+  overflow: hidden;
 }
 
 .main {

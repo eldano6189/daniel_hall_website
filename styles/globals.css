@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+  cursor: none;
 }
 
 .dark {
@@ -26,6 +27,7 @@ body {
 }
 html {
   height: -webkit-fill-available;
+  overflow-x: hidden;
 }
 
 #__next {
