@@ -1,0 +1,33 @@
+.container__link {
+  margin: 2em 0;
+}
+
+.btn {
+  position: relative;
+  text-decoration: none;
+  padding: 0.8em 2em;
+  overflow: hidden;
+  background-color: var(--bg1);
+}
+
+.btn::before {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 100%;
+  background-color: var(--fc1);
+  top: 0;
+  left: 0;
+  transition: width 0.5s var(--transition);
+}
+
+.btn__text {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.btn:hover::before,
+.btn:focus::before {
+  background-color: var(--fc1);
+  width: 100%;
+}

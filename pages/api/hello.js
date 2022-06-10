@@ -1,5 +1,7 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+import { AboutMe } from "../../data/AboutMe";
+
+const test = JSON.stringify(AboutMe);
 
 export default function handler(req, res) {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json({ test });
 }
