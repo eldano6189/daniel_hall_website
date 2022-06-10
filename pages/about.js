@@ -1,4 +1,4 @@
-import styles from "../styles/About.module.css";
+import styles from "../styles/about.module.css";
 import Head from "next/head";
 
 import { AnimatedDots } from "../components/Animated-dots/AnimatedDots";
@@ -6,7 +6,7 @@ import { ProgressBar } from "../components/Progress-bar/ProgressBar";
 import { AnimatedLink } from "../components/Animated-link/AnimatedLink";
 import { AboutMe } from "../data/AboutMe";
 
-import { useRef, Suspense, useState } from "react";
+import { useRef, Suspense } from "react";
 import { ContactShadows, useProgress, Html } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 

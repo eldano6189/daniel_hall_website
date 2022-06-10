@@ -1,4 +1,4 @@
-import styles from "../styles/Work.module.css";
+import styles from "../styles/work.module.css";
 import Head from "next/head";
 import { useRef } from "react";
 
