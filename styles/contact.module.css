@@ -1,0 +1,149 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container__titles {
+  width: 100%;
+  height: max(400px, 50vh);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.container__titles > div {
+  margin: 6vw;
+}
+
+.container__titles h1 {
+  margin: 0;
+}
+
+.container__content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 1 1;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: max(4vw, 80px) 5%;
+}
+
+.container__content form {
+  margin-top: 6vw;
+}
+
+.container__content > * {
+  padding-bottom: max(4vw, 80px);
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row > div {
+  flex: 1 1;
+  padding: 3vw 0;
+}
+
+.row input {
+  width: 100%;
+  padding: 0.5em 0;
+  border: none;
+  border-bottom: 1px solid var(--fc1);
+  background-color: transparent;
+  font-size: max(0.8rem, 0.9vw);
+  color: var(--fc1);
+  outline: none;
+}
+
+.row input:focus {
+  border-bottom: 1px solid var(--primary);
+}
+
+.row textarea {
+  width: 100%;
+  padding: 0.5em 0;
+  border: none;
+  border-bottom: 1px solid var(--fc1);
+  background-color: transparent;
+  font-size: max(0.8rem, 0.9vw);
+  color: var(--fc1);
+  outline: none;
+}
+
+.row textarea:focus {
+  border-bottom: 1px solid var(--primary);
+}
+
+.container__link {
+  margin: 2em 0;
+}
+
+.btn {
+  border: none;
+  position: relative;
+  text-decoration: none;
+  padding: 0.8em 2em;
+  overflow: hidden;
+  background-color: var(--bg1);
+}
+
+.btn::before {
+  position: absolute;
+  content: "";
+  width: 40%;
+  height: 100%;
+  background-color: var(--fc1);
+  top: 0;
+  left: 0;
+  transition: width 0.5s var(--transition);
+}
+
+.btn__text {
+  color: white;
+  mix-blend-mode: difference;
+}
+
+.btn:hover::before,
+.btn:focus::before {
+  background-color: var(--fc1);
+  width: 100%;
+}
+
+@media (min-width: 1100px) {
+  .container {
+    flex-direction: row;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .container__titles {
+    text-align: start;
+    width: unset;
+    height: unset;
+    align-items: flex-start;
+    padding: 6vw 0;
+    flex: 1 1;
+  }
+
+  .container__content {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .row > div {
+    padding: 3vw 1vw 3vw 0;
+  }
+}
