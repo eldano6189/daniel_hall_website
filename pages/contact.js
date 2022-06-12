@@ -31,7 +31,12 @@ export const Contact = () => {
         </div>
       </div>
       <div className={styles.container__content} ref={elemRef}>
-        <form name="contact" method="post">
+        <form
+          name="contact"
+          method="post"
+          action="/success"
+          data-netlify="true"
+        >
           <input type="hidden" name="form-name" value="contact" />
           <div className={styles.row}>
             <div>
