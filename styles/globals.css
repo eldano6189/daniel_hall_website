@@ -56,7 +56,7 @@ p,
 li,
 a {
   font-size: max(0.8rem, 0.9vw);
-  color: var(--fc1);
+  color: var(--fc2);
 }
 
 ::-webkit-scrollbar {

@@ -90,24 +90,28 @@ const Mouse = () => {
   }, []);
 
   return (
-    <div
-      className={styles.outer}
-      style={{
-        opacity: isOnScreen ? "0" : "1",
-        display: isMobile ? "none" : "flex",
-        transform: `scale(${hovered ? "2" : "1"})`,
-        left: `${posX}px`,
-        top: `${posY}px`,
-      }}
-    >
+    <>
+      <div
+        className={styles.outer}
+        style={{
+          transform: `scale(${hovered ? "3" : "1.5"})`,
+          opacity: isOnScreen ? "0" : "1",
+          display: isMobile ? "none" : "flex",
+          left: `${posX}px`,
+          top: `${posY}px`,
+        }}
+      ></div>
       <div
         className={styles.inner}
         style={{
-          transform: `scale(${clicked ? "0.2" : "0.8"})`,
-          opacity: hovered ? "0" : "1",
+          transform: `scale(${hovered ? "0" : "0.5"})`,
+          opacity: isOnScreen ? "0" : "1",
+          display: isMobile ? "none" : "flex",
+          left: `${posX}px`,
+          top: `${posY}px`,
         }}
       ></div>
-    </div>
+    </>
   );
 };
 

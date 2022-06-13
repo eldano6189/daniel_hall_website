@@ -1,23 +1,24 @@
 .outer {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 10000;
   pointer-events: none;
   width: 1.2rem;
   aspect-ratio: 1 / 1;
-  border-radius: 50%;
   border: 1px solid var(--primary);
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: transform 0.5s ease;
+  /* transition: transform 0.3s var(--transition); */
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 
 .inner {
+  position: absolute;
+  z-index: 10000;
+  pointer-events: none;
   width: 1.2rem;
   aspect-ratio: 1 / 1;
   background-color: var(--primary);
-  border-radius: 50%;
-  transition: transform 0.1s ease;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s var(--transition);
 }

@@ -66,7 +66,7 @@ export const About = () => {
                       penumbra={1}
                       shadow-mapSize={[512, 512]}
                       intensity={0.2}
-                      color={"white"}
+                      color={"#3D119E"}
                       castShadow
                     />
                     <ContactShadows
