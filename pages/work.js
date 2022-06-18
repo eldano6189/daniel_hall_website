@@ -6,7 +6,6 @@ import { Works } from "../data/Work";
 import { Monitor } from "../components/Monitor/Monitor";
 import { HTML } from "../components/svg/Html";
 import { Github } from "../components/svg/Github";
-import { AnimatedDots } from "../components/Animated-dots/AnimatedDots";
 import { AnimatedLink } from "../components/Animated-link/AnimatedLink";
 import { ProgressBar } from "../components/Progress-bar/ProgressBar";
 
@@ -20,7 +19,6 @@ export const Work = () => {
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AnimatedDots />
       <div className={styles.container__titles}>
         <div>
           <h1 className="main-header">Work.</h1>

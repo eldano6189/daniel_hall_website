@@ -2,8 +2,6 @@ import styles from "../styles/contact.module.css";
 import { useRef } from "react";
 import Head from "next/head";
 
-import { AnimatedDots } from "../components/Animated-dots/AnimatedDots";
-import { AnimatedLink } from "../components/Animated-link/AnimatedLink";
 import { ProgressBar } from "../components/Progress-bar/ProgressBar";
 
 export const Contact = () => {
@@ -16,7 +14,7 @@ export const Contact = () => {
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <AnimatedDots />
+
       <div className={styles.container__titles}>
         <div>
           <h1 className="main-header">Contact.</h1>

@@ -4,6 +4,7 @@ import { Context } from "../../context/context";
 
 import { Header } from "../header/header";
 import { Footer } from "../footer/footer";
+import { AnimatedDots } from "../Animated-dots/AnimatedDots";
 
 export const Layout = ({ children }) => {
   const { darkMode } = useContext(Context);
@@ -11,7 +12,10 @@ export const Layout = ({ children }) => {
   return (
     <div className={`${styles.App} dark`}>
       <Header />
-      <main className={styles.main}>{children}</main>
+      <main className={styles.main}>
+        <AnimatedDots />
+        {children}
+      </main>
       <Footer />
     </div>
   );
