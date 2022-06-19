@@ -17,11 +17,11 @@ export default function Head({ ...props }) {
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.Merged_Objects.geometry}
-        material={materials.Echo}
-        position={[0, -2.5, 0]}
+        geometry={nodes.Head.geometry}
+        material={materials["Echo 1"]}
+        position={[0, -2.8, 0]}
         rotation={[-Math.PI / 2, 0, 0]}
-        scale={0.02}
+        scale={0.022}
       />
     </group>
   );

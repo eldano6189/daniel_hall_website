@@ -19,16 +19,16 @@ export const ModelScene = ({ children }) => {
         position={[-20, 20, 20]}
         penumbra={1}
         shadow-mapSize={[512, 512]}
-        intensity={0.5}
+        intensity={0.6}
         color={"white"}
         castShadow
       />
       <directionalLight
-        position={[20, 20, -30]}
+        position={[20, 20, -20]}
         penumbra={1}
         shadow-mapSize={[512, 512]}
-        intensity={0.2}
-        color={"orange"}
+        intensity={0.4}
+        color={"#09ff00"}
         castShadow
       />
       <ContactShadows

@@ -11,12 +11,12 @@
 }
 
 .dark {
-  --bg1: rgb(25, 25, 25);
-  --bg2: rgb(27, 27, 27);
+  --bg1: rgb(0, 0, 0);
+  --bg2: rgb(15, 15, 15);
   --fc1: rgb(255, 255, 255);
   --fc2: rgb(222, 222, 222);
-  --primary: rgb(255, 106, 0);
-  --border: rgba(255, 255, 255, 0.045);
+  --primary: rgb(9, 255, 0);
+  --border: rgb(21, 21, 21);
   --transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
