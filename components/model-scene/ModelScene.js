@@ -16,7 +16,7 @@ export const ModelScene = ({ children }) => {
   return (
     <Canvas>
       <directionalLight
-        position={[-20, 20, 20]}
+        position={[-20, 20, 10]}
         penumbra={1}
         shadow-mapSize={[512, 512]}
         intensity={0.6}

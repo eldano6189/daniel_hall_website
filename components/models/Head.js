@@ -17,7 +17,7 @@ export default function Head({ ...props }) {
       <mesh
         castShadow
         receiveShadow
-        geometry={nodes.Head.geometry}
+        geometry={nodes.Head_1.geometry}
         material={materials["Echo 1"]}
         position={[0, -2.8, 0]}
         rotation={[-Math.PI / 2, 0, 0]}
