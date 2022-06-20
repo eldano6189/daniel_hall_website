@@ -40,8 +40,8 @@ export const Works = [
         },
       },
     ],
-    github: "",
-    website: "",
+    github: "https://github.com/eldano6189/new_to_words",
+    website: "https://newtowords.com/",
   },
   {
     id: 3,
@@ -62,8 +62,8 @@ export const Works = [
         },
       },
     ],
-    github: "",
-    website: "",
+    github: "https://github.com/eldano6189/Nomadinero",
+    website: "https://stupefied-hawking-149464.netlify.app/",
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ export const Works = [
         },
       },
     ],
-    github: "",
-    website: "",
+    github: "/work",
+    website: "/work",
   },
 ];
