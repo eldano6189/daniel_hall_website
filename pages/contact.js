@@ -11,8 +11,6 @@ export const Contact = () => {
     <div className={styles.container}>
       <Head>
         <title>Daniel Hall Portfolio | Contact</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.container__titles}>

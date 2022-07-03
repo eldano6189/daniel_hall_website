@@ -16,8 +16,6 @@ export const Work = () => {
     <div className={styles.container}>
       <Head>
         <title>Daniel Hall Portfolio | Work</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container__titles}>
         <div>

@@ -18,7 +18,7 @@ export default function Uniform({ ...props }) {
         receiveShadow
         geometry={nodes.Uniform_1.geometry}
         material={materials["Floral Scent 1"]}
-        position={[0, -9.5, 0.01]}
+        position={[0, -9.5, 0.0]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={0.07}
       />
