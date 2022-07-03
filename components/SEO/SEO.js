@@ -4,6 +4,10 @@ export const SEO = ({ children }) => {
   return (
     <>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="-J_LnC5CFDaOU0uWlCg8waqrvideo5J6wzzWLE6mwtg"
+        />
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
