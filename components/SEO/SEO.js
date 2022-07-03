@@ -3,7 +3,7 @@ import Head from "next/head";
 export const SEO = ({ children }) => {
   return (
     <>
-      <Head>
+      <Head lang="en">
         <meta
           name="google-site-verification"
           content="-J_LnC5CFDaOU0uWlCg8waqrvideo5J6wzzWLE6mwtg"
@@ -18,13 +18,13 @@ export const SEO = ({ children }) => {
           content="web, frontend, developer, react.js, css, css3, html, html5, javascript, svg animation, Daniel, Hall, Daniel Hall"
         />
         <meta name="author" content="Daniel Hall" />
-        <link rel="canonical" href="https://www.danielhall.dev/" />
+        <link rel="canonical" href="https://danielhall.dev/" />
         <meta property="og:site_name" content="DanielHall.dev" />
         <meta
           property="og:title"
           content="Daniel Hall - Front-end Web Developer based in North Yorks, UK"
         />
-        <meta property="og:url" content="https://www.danielhall.dev" />
+        <meta property="og:url" content="https://danielhall.dev" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
@@ -32,7 +32,7 @@ export const SEO = ({ children }) => {
         />
         <meta
           property="og:image"
-          content="https://www.danielhall.dev/favicon.ico"
+          content="https://danielhall.dev/favicon.ico"
         />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
