@@ -7,7 +7,7 @@ export const AboutMe = [
     header: "Who am I?",
     text: [
       "My names Daniel Hall and i am a junior front-end react developer.",
-      "I have a serious passion for the build and completion of complex projects that push boundarys.",
+      "I have spent the last 4 years learning and implementing my skills on small projects for an array of companys and friends.",
       "I enjoy the thrill of problem solving, with a high attention to the finer details.",
     ],
     model: <Head />,
@@ -15,20 +15,19 @@ export const AboutMe = [
   {
     header: "So what skills do i have?",
     text: [
-      "I build responsive websites that are intuitive, fast and with the current cutting edge technologies.",
-      // "I adapted my basic skills of HTML, CSS and Javascript to give me a firm grip, and essential knowledge to use the React framework.",
-      "I use Github version control for all my projects, using the command terminal seemlessly to create new branches and commit my work with ease.",
-      "I have also used Cognito from AWS for help with Auth0, which allowed users to loggin to secure areas with required passwords.",
-      "I love to implement animations with the GSAP library or Framer.",
+      "Majority of my time is spent using React and NextJS.",
+      "I prefure to use standard CSS to deepen my knowledge and understanding for the core concepts of styling.",
+      "Git is my weapon of choice for version control.",
+      "I also have a base knowledge of AWS Cognito, GSAP, Framer & ThreeJS,",
     ],
     model: <MeSkills />,
   },
   {
     header: "My hobbies.",
     text: [
-      "I am an avid sportsman! I love to play an array of sports including football, squash, rugby, MMA, golf and the list goes on.",
-      "I am also a husband and father of two, who i love to spend my time with molding them into the best humans they can be.",
-      "I am still currently serving in the British Armed Forces where i get the opportunity to serve in some amazing places all over the globe and meet interesting people.",
+      "I am an avid sportsman! I love to play an array of sports including football, squash, rugby, MMA and the list goes on.",
+      "Also i'm a husband and father of two, who i love to spend my time with.",
+      "I am also a serving British soldier. I get the opportunity to see amazing places all over the globe and meet interesting people.",
     ],
     model: <Uniform />,
   },

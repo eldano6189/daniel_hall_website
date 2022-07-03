@@ -7,8 +7,7 @@
   border: 1px solid var(--primary);
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
+  transition: transform 0.3s var(--transition);
 }
 
 .inner {

@@ -19,7 +19,7 @@ export const ModelScene = ({ children }) => {
         position={[-20, 20, 10]}
         penumbra={1}
         shadow-mapSize={[512, 512]}
-        intensity={0.6}
+        intensity={0.8}
         color={"white"}
         castShadow
       />
@@ -27,7 +27,7 @@ export const ModelScene = ({ children }) => {
         position={[20, 20, -20]}
         penumbra={1}
         shadow-mapSize={[512, 512]}
-        intensity={0.4}
+        intensity={0.8}
         color={"#09ff00"}
         castShadow
       />
@@ -40,6 +40,7 @@ export const ModelScene = ({ children }) => {
         blur={2.6}
         far={2}
       />
+
       <Suspense fallback={<Loader />}>{children}</Suspense>
     </Canvas>
   );

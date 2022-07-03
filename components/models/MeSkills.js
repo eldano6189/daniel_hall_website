@@ -15,27 +15,32 @@ export default function MeSkills({ ...props }) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <mesh
-        castShadow
-        receiveShadow
-        geometry={nodes.Me.geometry}
-        material={materials.Echo}
-        position={[1.5, -6, 0.0]}
+      <group
+        position={[0.6, -5, 0.03]}
         rotation={[-Math.PI / 2, 0, 0]}
         scale={0.05}
-      />
-      <mesh
-        ref={laptop}
-        castShadow
-        receiveShadow
-        geometry={nodes.Laptop.geometry}
-        material={materials["Lollipop Soda"]}
-        position={[-0.5, 0.1, 1.5]}
-        rotation={[-Math.PI / 2, 0, 0]}
-        scale={0.05}
-      />
+      >
+        <mesh
+          castShadow
+          receiveShadow
+          geometry={nodes.Me.geometry}
+          material={materials.Echo}
+          position={[13.41, 27.79, 0]}
+          scale={1000}
+        />
+        <mesh
+          ref={laptop}
+          castShadow
+          receiveShadow
+          geometry={nodes.Laptop.geometry}
+          material={materials["Lollipop Soda"]}
+          position={[-17.17, -22.68, 103.1]}
+          rotation={[0, 0, 0.49]}
+          scale={1000}
+        />
+      </group>
     </group>
   );
 }
 
-useGLTF.preload("/Models/MeSkills.glb");
+useGLTF.preload("/MeSkills.glb");
