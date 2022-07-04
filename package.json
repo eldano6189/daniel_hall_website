@@ -15,6 +15,7 @@
     "next-transpile-modules": "^9.0.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "sitemap": "^7.1.1",
     "three": "^0.141.0"
   },
   "devDependencies": {

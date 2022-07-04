@@ -3,7 +3,7 @@ import Head from "next/head";
 export const SEO = ({ children }) => {
   return (
     <>
-      <Head lang="en">
+      <Head>
         <meta
           name="google-site-verification"
           content="-J_LnC5CFDaOU0uWlCg8waqrvideo5J6wzzWLE6mwtg"

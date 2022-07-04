@@ -14,11 +14,14 @@ export const Home = () => {
 
       <div className={styles.grid}>
         <div className={styles.greeting}>
-          <h1 className="main-header">Hello.</h1>
-          <h2 className="sub-header">
-            My name is Daniel Hall,
-            <br />A front-end React developer.
-          </h2>
+          <h1 className="main-header">
+            Hello.
+            <br />
+            <span className="sub-header">
+              My name is Daniel Hall,
+              <br />A front-end React developer.
+            </span>
+          </h1>
           <AnimatedLink href="/work">See my work!</AnimatedLink>
         </div>
         <div className={styles.container__model}>
